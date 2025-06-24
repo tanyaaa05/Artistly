@@ -78,7 +78,7 @@ export function ArtistCard({ artist }: ArtistCardProps) {
             </div>
             <div className="flex items-center text-sm text-gray-600">
               <IndianRupee className="h-4 w-4 mr-1" />
-              <span>₹{artist.priceRange}</span>
+              <span>{artist.priceRange}</span>
             </div>
           </div>
 
