@@ -87,11 +87,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
-    other: [{ rel: "mask-icon", url: "/safari-pinned-tab.svg", color: "#7c3aed" }],
+      { url: "/favicon.ico", sizes: "16x16", type: "image/png" }
+    ]
   },
   manifest: "/site.webmanifest",
   category: "Entertainment",
@@ -148,7 +145,6 @@ export const metadata: Metadata = {
     MobileOptimized: "width",
     "theme-color": "#7c3aed",
     "msapplication-navbutton-color": "#7c3aed",
-    "apple-mobile-web-app-status-bar-style": "black-translucent",
     "msapplication-starturl": "/",
     viewport: "width=device-width, initial-scale=1, shrink-to-fit=no",
     "geo.region": "IN",
